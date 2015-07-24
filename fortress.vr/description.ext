@@ -1,0 +1,201 @@
+author = "Fess25Rus";
+onLoadName = "[COOP 1-10] VR Fortress";
+onLoadMission = "Welcome to Virtual Reality Battlefield!";
+loadScreen = "loadscreen.paa";
+
+respawn = BASE;
+respawndelay = 10;
+disabledAI = TRUE;
+enableDebugConsole = 1;
+respawnOnStart = 0;
+respawnTemplates[] = {"MenuPosition"};
+respawnButton = 0;
+saving = 0;
+corpseManagerMode = 3;
+corpseLimit = 15;
+
+class Header
+{
+	gameType = COOP;           
+	minPlayers = 1;             
+	maxPlayers = 10;          
+};
+
+#include "spectator\spectating.hpp"
+
+class Params
+{
+	class Daytime
+	{
+		title = "Time";
+		texts[] = {"Morning","Day","Evening","Night"};
+		values[] = {6,12,18,0};
+		default = 12;
+		function = "BIS_fnc_paramDaytime"; // (Optional) Function called when player joins, selected value is passed as an argument
+ 		isGlobal = 1; // (Optional) 1 to execute script / function locally for every player who joins, 0 to do it only on server
+	};
+};
+
+class CfgSounds
+{
+	sounds[] = {};
+	class killstrk_heli
+	{
+		// how the sound is referred to in the editor (e.g. trigger effects)
+		name = "FS KillStreak Heli";
+		// filename, volume, pitch
+		sound[] = {"sound\mp_killstrk_heliaway.ogg", 1, 1};
+		// subtitle delay in seconds, subtitle text 
+		titles[] = {1, ""};
+	};
+	class killstrk_unlimammo
+	{
+		// how the sound is referred to in the editor (e.g. trigger effects)
+		name = "FS KillStreak Unlimited Ammo";
+		// filename, volume, pitch
+		sound[] = {"sound\duws_loadgun.ogg", 1, 1};
+		// subtitle delay in seconds, subtitle text 
+		titles[] = {1, ""};
+	};
+	class killstrk_godmode
+	{
+		// how the sound is referred to in the editor (e.g. trigger effects)
+		name = "FS KillStreak Godmode";
+		// filename, volume, pitch
+		sound[] = {"sound\mp_flag_lost_hit01.ogg", 1, 1};
+		// subtitle delay in seconds, subtitle text 
+		titles[] = {1, ""};
+	};
+	class killstrk_zeus
+	{
+		// how the sound is referred to in the editor (e.g. trigger effects)
+		name = "FS KillStreak Zeus";
+		// filename, volume, pitch
+		sound[] = {"sound\zeus_awoken.ogg", 2, 1};
+		// subtitle delay in seconds, subtitle text 
+		titles[] = {1, ""};
+	};
+	class mp_laststand
+	{
+		// how the sound is referred to in the editor (e.g. trigger effects)
+		name = "FS Last Stand";
+		// filename, volume, pitch
+		sound[] = {"sound\mp_last_stand.ogg", 1, 1};
+		// subtitle delay in seconds, subtitle text 
+		titles[] = {1, ""};
+	};
+	class mp_alarm
+	{
+		// how the sound is referred to in the editor (e.g. trigger effects)
+		name = "FS Alarm";
+		// filename, volume, pitch
+		sound[] = {"sound\alarm_missile_incoming_01.ogg", 1, 1};
+		// subtitle delay in seconds, subtitle text 
+		titles[] = {1, ""};
+	};	
+	class mp_counterAttack01
+	{
+		name = "FS CA";
+		sound[] = {"sound\counterattackstart8.ogg.ogg", 1, 1};
+		titles[] = {1, ""};
+	};	
+	class mp_counterAttack02
+	{
+		name = "FS CA";
+		sound[] = {"sound\counterattackstart6.ogg", 1, 1};
+		titles[] = {1, ""};
+	};	
+	class mp_counterAttack03
+	{
+		name = "FS CA";
+		sound[] = {"sound\counterattackstart17.ogg", 1, 1};
+		titles[] = {1, ""};
+	};	
+	class mp_counterAttack04
+	{
+		name = "FS CA";
+		sound[] = {"sound\counterattackstart13.ogg", 1, 1};
+		titles[] = {1, ""};
+	};	
+	class mp_counterAttackEnd01
+	{
+		name = "FS CA";
+		sound[] = {"sound\counterattackend4.ogg", 1, 1};
+		titles[] = {1, ""};
+	};	
+	class mp_counterAttackEnd02
+	{
+		name = "FS CA";
+		sound[] = {"sound\counterattackend3.ogg", 1, 1};
+		titles[] = {1, ""};
+	};	
+	class mp_counterAttackEnd03
+	{
+		name = "FS CA";
+		sound[] = {"sound\counterattackend22.ogg", 1, 1};
+		titles[] = {1, ""};
+	};	
+	class mp_counterAttackEnd04
+	{
+		name = "FS CA";
+		sound[] = {"sound\counterattackend20.ogg", 1, 1};
+		titles[] = {1, ""};
+	};	
+	class mp_counterAttackEnd05
+	{
+		name = "FS CA";
+		sound[] = {"sound\counterattackend16.ogg", 1, 1};
+		titles[] = {1, ""};
+	};
+};
+
+class CfgMusic
+{
+	tracks[] = {};
+
+	class zeus_theme
+	{
+		name = "FS Zeus Theme";
+		sound[] = {"\sound\zeus_theme.ogg", db+8, 1.0};
+	};
+	class boss_theme
+	{
+		name = "FS Boss Theme";
+		sound[] = {"\sound\boss_theme.ogg", db+5, 1.0};
+	};
+	class delay_theme
+	{
+		name = "FS New Wave Theme";
+		sound[] = {"\sound\NewWaveLoop.OGG", db+0, 1.0};
+	};
+	class victory_theme
+	{
+		name = "FS Victory Theme";
+		sound[] = {"\sound\ins_win_b_rd.OGG", db+6, 1.0};
+	};
+	class intro
+	{
+		name = "FS Intro Theme";
+		sound[] = {"\sound\intro.OGG", db+5, 1.0};
+	};
+	class recon
+	{
+		name = "FS Recon Theme";
+		sound[] = {"\sound\recon_incoming.ogg", db+6, 1.0};
+	};
+};
+
+//missionConfigFile >> "MyMissionDialog"
+
+//#include "dialog\defines\defines.hpp"
+
+#include "dialog\defines.hpp"
+#include "dialog\FortWipeMenu.hpp"
+#include "dialog\FortLoadMenu.hpp"
+#include "dialog\FortSaveMenu.hpp"
+#include "dialog\BuildMenu.hpp"
+#include "dialog\PerksMenu.hpp"
+#include "dialog\ParametersMenu.hpp"
+#include "dialog\BarracksMenu.hpp"
+#include "dialog\ProgressionMenu.hpp"
+

@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="FS_STRINGS">
+	
+	<Package name="Mission__LvlFeatures">
+		<Key ID="STR_FS_LvlFeatures_SpawnProtection">
+			<Original>Temporary invulnerability added</Original>
+			<Russian>Добавлена временная неуязвимость</Russian>
+			<French>Invincibilité temporaire ajoutée</French>
+		</Key>
+		<Key ID="STR_FS_LvlFeatures_SpawnProtectionDescription">
+			<Original>Temporary invulnerability after respawn</Original>
+			<Russian>Временная неуязвимость после респавна</Russian>
+			<French></French>
+		</Key>
+		<Key ID="STR_FS_LvlFeatures_BetterStaminaDescription">
+			<Original>Better stamina</Original>
+			<Russian>Повышенная выносливость</Russian>
+			<French></French>
+		</Key>
+	</Package>
+	
+	<Package name="Mission__ProgressionMenu">
+		<Key ID="STR_FS_ProgressionMenu_EnemiesKilled">
+			<Original>Enemies killed</Original>
+			<Russian>Убито врагов</Russian>
+			<French>Ennemis tués</French>
+		</Key>
+		<Key ID="STR_FS_ProgressionMenu_EnemiesKilledByYou">
+			<Original>Enemies killed by you</Original>
+			<Russian>Из них убито вами</Russian>
+			<French>Ennemis tués par mo</French>
+		</Key>
+		<Key ID="STR_FS_ProgressionMenu_EnemiesKilledTotal">
+			<Original>Enemies killed in total</Original>
+			<Russian>Убито за всё время</Russian>
+			<French>Total d'ennemis tués</French>
+		</Key>
+		<Key ID="STR_FS_ProgressionMenu_LVL">
+			<Original>Lvl.</Original>
+			<Russian>Ур.</Russian>
+			<French>Niv.</French>
+		</Key>
+		<Key ID="STR_FS_ProgressionMenu_CheckLVL">
+			<Original>Show my progress</Original>
+			<Russian>Показать прогресс</Russian>
+			<French>Ma progression</French>
+		</Key>
+	</Package>
+	
+	<Package name="Mission__Killstreaks">
+		<Key ID="STR_FS_EnemiesKilled">
+			<Original>Enemies killed</Original>
+			<Russian>Убито врагов</Russian>
+			<French>Ennemis tués</French>
+		</Key>
+		<Key ID="STR_FS_UnlimitedAmmo">
+			<Original>sec. unlimited ammo</Original>
+			<Russian>сек. беск. патроны</Russian>
+			<French>sec. de munitions illimitées</French>
+		</Key>
+		<Key ID="STR_FS_EnhancedArmor">
+			<Original>sec. enhanced armor</Original>
+			<Russian>сек. улучшенная броня</Russian>
+			<French>sec. d'invincibilité</French>
+		</Key>
+		<Key ID="STR_FS_TicketsAdded">
+			<Original>Tickets added</Original>
+			<Russian>Добавлены возрождения</Russian>
+			<French>Tickets ajoutés</French>
+		</Key>
+		<Key ID="STR_FS_ZeusAdded1">
+			<Original>ZEUS IS LOOKING AT YOU.</Original>
+			<Russian>ЗЕВС ОБРАТИЛ НА ТЕБЯ ВНИМАНИЕ.</Russian>
+			<French>ZEUS VOUS REGARDE.</French>
+		</Key>
+		<Key ID="STR_FS_ZeusAdded2">
+			<Original>Ask him for help, if you dare!</Original>
+			<Russian>Попроси о помощи, если осмелишься!</Russian>
+			<French>Demandez-lui de l'aide, si vous osez!</French>
+		</Key>
+		<Key ID="STR_FS_ZeusAwoken1">
+			<Original>ZEUS AWOKEN!</Original>
+			<Russian>ЗЕВС В ГНЕВЕ!</Russian>
+			<French>ZEUS ÉVEILLÉ!</French>
+		</Key>		
+		<Key ID="STR_FS_ZeusAwoken2">
+			<Original>Run, you fools!</Original>
+			<Russian>Бегите, глупцы!</Russian>
+			<French>Courez, pauvres fous!</French>
+		</Key>
+		<Key ID="STR_FS_HeliSupport1">
+			<Original>HELICOPTER SUPPORT</Original>
+			<Russian>ПОДДЕРЖКА С ВОЗДУХА</Russian>
+			<French>SOUTIEN AÉRIEN</French>
+		</Key>		
+		<Key ID="STR_FS_HeliSupport2">
+			<Original>The helicopter is ready!</Original>
+			<Russian>Вертолет готов к вылету!</Russian>
+			<French>L'hélicoptère est prêt!</French>
+		</Key>		
+		<Key ID="STR_FS_HeliSupport3">
+			<Original>Helicopter inbound!</Original>
+			<Russian>Вертолет вылетел!</Russian>
+			<French>Hélicoptère en approche!</French>
+		</Key>
+		<Key ID="STR_FS_AmmoSupport1">
+			<Original>AMMO SUPPORT</Original>
+			<Russian>ПАТРОНЫ</Russian>
+			<French>SOUTIEN MUNITIONS</French>
+		</Key>
+		<Key ID="STR_FS_AmmoSupport2">
+			<Original>Your weapon is ready to fire!</Original>
+			<Russian>Боеприпасы заготовлены!</Russian>
+			<French>Vos munitions sont prêtes!</French>
+		</Key>		
+		<Key ID="STR_FS_AmmoSupport3">
+			<Original>One of teammates with unlimited ammo now!</Original>
+			<Russian>Один из товарищей активировал бесконечные патроны!</Russian>
+			<French>Un de vos coéquipiers a activé ses munitions illimitées!</French>
+		</Key>
+		<Key ID="STR_FS_EnhArmor1">
+			<Original>ENHANCED ARMOR</Original>
+			<Russian>УЛУЧШЕННАЯ БРОНЯ</Russian>
+			<French>INVINCIBILITÉ</French>
+		</Key>
+		<Key ID="STR_FS_EnhArmor2">
+			<Original>Armor powerup is ready.</Original>
+			<Russian>Улучшение брони готово.</Russian>
+			<French>L'invincibilité est prête.</French>
+		</Key>
+		<Key ID="STR_FS_EnhArmor3">
+			<Original>One of teammates with enhanced armor now!</Original>
+			<Russian>Один из товарищей активировал улучшенную броню!</Russian>
+			<French>Un de vos coéquipiers a activé son invincibilité!</French>
+		</Key>
+	</Package>
+	
+	<Package name="Mission__System">
+		<Key ID="STR_FS_TeamKillerMsg">
+			<Original>YOU ARE TEAMKILLER!</Original>
+			<Russian>ВЫ УБИВАЕТЕ СВОИХ СОЮЗНИКОВ!</Russian>
+			<French>VOUS ÊTES UN TRAÎTRE!</French>
+		</Key>
+		<Key ID="STR_FS_TicketsMSG1">
+			<Original>Your team now has</Original>
+			<Russian>У вашей команды осталось</Russian>
+			<French>Votre équipe a maintenant</French>
+		</Key>		
+		<Key ID="STR_FS_TicketsMSG2">
+			<Original>tickets.</Original>
+			<Russian>возрождений.</Russian>
+			<French>tickets.</French>
+		</Key>
+		<Key ID="STR_FS_NEWVAWEIN">
+			<Original>New wave in</Original>
+			<Russian>Новая волна через</Russian>
+			<French>Nouvelle vague ennemie dans</French>
+		</Key>
+		<Key ID="STR_FS_WAVESTARTED">
+			<Original>Wave started!</Original>
+			<Russian>Волна началась!</Russian>
+			<French>Nouvelle vague en approche!</French>
+		</Key>
+		<Key ID="STR_FS_LASTSTAND_01">
+			<Original>PROBLEM</Original>
+			<Russian>ПРОБЛЕМКА</Russian>
+			<French>PROBLÈME</French>
+		</Key>
+		<Key ID="STR_FS_LASTSTAND_02">
+			<Original>Complete the task, soldier! You are the last one!</Original>
+			<Russian>Выполняй задание, солдат! Ты остался один!</Russian>
+			<French>Finissez le travail, soldat! Vous êtes le dernier!</French>
+		</Key>
+		<Key ID="STR_FS_SYSTEM_MSG_01">
+			<Original>NOTE</Original>
+			<Russian>ЗАМЕТКА</Russian>
+			<French>REMARQUE</French>
+		</Key>
+		<Key ID="STR_FS_SYSTEM_MSG_02">
+			<Original>Check your journal to learn about VR Fortress.</Original>
+			<Russian>В журнал добавлена заметка о VR Fortress.</Russian>
+			<French>Consultez votre journal pour en apprendre davantage sur VR Fortress.</French>
+		</Key>
+		<Key ID="STR_FS_SYSTEM_MSG_03">
+			<Original>Check your journal to learn about Endless Mode.</Original>
+			<Russian>В журнал добавлена заметка о Бесконечном режиме.</Russian>
+			<French>Consultez votre journal pour en apprendre davantage sur le mode Infinie.</French>
+		</Key>
+		<Key ID="STR_FS_SYSTEM_MSG_04">
+			<Original>Press 0-0-0 when you are ready to run simulation.</Original>
+			<Russian>Потерялись? Чтобы начать игру, нажмите 0-0-0.</Russian>
+			<French>Prêt? Pour débuter la simulation, appuyer sur 0-0-0.</French>
+		</Key>
+	</Package>
+	
+	<Package name="Mission__Parameters">
+		<Key ID="STR_FS_EnSnow">
+			<Original>Enable Snow</Original>
+			<Russian>Вкл. Снег</Russian>
+			<French>Activer la neige</French>
+		</Key>			
+		<Key ID="STR_FS_SnowDensity">
+			<Original>Snow Density</Original>
+			<Russian>Плотность снега</Russian>
+			<French></French>
+		</Key>			
+		<Key ID="STR_FS_Snow1">
+			<Original>Light</Original>
+			<Russian>Слабый</Russian>
+			<French>Léger</French>
+		</Key>
+		<Key ID="STR_FS_Snow2">
+			<Original>Medium</Original>
+			<Russian>Сильный</Russian>
+			<French>Moyen</French>
+		</Key>			
+		<Key ID="STR_FS_Snow3">
+			<Original>Blizzard</Original>
+			<Russian>Метель</Russian>
+			<French>Blizzard</French>
+		</Key>	
+		<Key ID="STR_FS_EnPerks">
+			<Original>Enable Perks</Original>
+			<Russian>Вкл. перки</Russian>
+			<French>Activer les avantages</French>
+		</Key>	
+		<Key ID="STR_FS_EnKS">
+			<Original>Enable KillStreaks</Original>
+			<Russian>Вкл. KillStreaks</Russian>
+			<French>Activer les Killstreaks</French>
+		</Key>
+		<Key ID="STR_FS_EnBoss">
+			<Original>Enable Boss</Original>
+			<Russian>Босс Вертолёт</Russian>
+			<French>Activer le Boss</French>
+		</Key>	
+		<Key ID="STR_FS_WavesCount">
+			<Original>Waves count</Original>
+			<Russian>Кол-во волн</Russian>
+			<French>Nombre de vagues</French>
+		</Key>	
+		<Key ID="STR_FS_StartTime">
+			<Original>Start Time</Original>
+			<Russian>Время</Russian>
+			<French>Heure</French>
+		</Key>	
+		<Key ID="STR_FS_StartWave">
+			<Original>Start from X wave</Original>
+			<Russian>Стартовая волна</Russian>
+			<French>Nb. de groupe au départ</French>
+		</Key>
+		<Key ID="STR_FS_EndlessMode">
+			<Original>Endless Mode</Original>
+			<Russian>Беск. режим</Russian>
+			<French>Mode Infinie</French>
+		</Key>
+		<Key ID="STR_FS_AISkill">
+			<Original>AI skill</Original>
+			<Russian>Навык ИИ</Russian>
+			<French>Difficulté</French>
+		</Key>
+		<Key ID="STR_FS_AIArt">
+			<Original>AI use artillery</Original>
+			<Russian>ИИ артиллерия</Russian>
+			<French>L'I.A. utilise l'artillerie</French>
+		</Key>
+		<Key ID="STR_FS_AIveh">
+			<Original>AI use vehicles</Original>
+			<Russian>ИИ техника</Russian>
+			<French>L'I.A. utilise des véhicules</French>
+		</Key>
+		<Key ID="STR_FS_TicketsCount">
+			<Original>Tickets Count</Original>
+			<Russian>Респавны</Russian>
+			<French>Nombre de tickets</French>
+		</Key>
+		<Key ID="STR_FS_PlaceMines">
+			<Original>Place Minefields</Original>
+			<Russian>Поставить мины</Russian>
+			<French>Champs de mines</French>
+		</Key>
+		<Key ID="STR_FS_AILimit">
+			<Original>AI Limit</Original>
+			<Russian>Лимит ИИ</Russian>
+			<French>Nombre max. d'I.A.</French>
+		</Key>
+		<Key ID="STR_FS_AILimit2">
+			<Original>How many enemies will be on site at the same time. 40 is recommended for AMD users. Intel users can freely change this.</Original>
+			<Russian>Максимальное количество врагов в единицу времени. 40 - рекомендованная цифра для игроков с CPU от AMD. Игроки с CPU от Intel могут менять значение свободно.</Russian>
+			<French>Combien d'ennemis seront sur le terrain en même temps. 40 est recommandé pour les utilisateurs de processeur AMD. Les utilisateurs de processeur Intel peuvent changer ce nombre librement.</French>
+		</Key>
+		<Key ID="STR_FS_Params">
+			<Original>Parameters</Original>
+			<Russian>Параметры</Russian>
+			<French>Paramètres</French>
+		</Key>
+	</Package>
+	
+	<Package name="Mission__Menus">
+		<Key ID="STR_FS_Barracks">
+			<Original>Barracks</Original>
+			<Russian>Казарма</Russian>
+			<French>Caserne</French>
+		</Key>
+		<Key ID="STR_FS_Barracks_Stance">
+			<Original>Stance</Original>
+			<Russian>Положение</Russian>
+			<French>Position</French>
+		</Key>		
+		<Key ID="STR_FS_Barracks_Side">
+			<Original>Side</Original>
+			<Russian>Сторона</Russian>
+			<French>Camp</French>
+		</Key>		
+		<Key ID="STR_FS_Barracks_DisableMove">
+			<Original>Disable Move</Original>
+			<Russian>Стационарный</Russian>
+			<French>Stationnaire</French>
+		</Key>		
+		<Key ID="STR_FS_Barracks_Group">
+			<Original>Group</Original>
+			<Russian>Группа</Russian>
+			<French>Groupe</French>
+		</Key>
+		<Key ID="STR_FS_Barracks_Yes">
+			<Original>Yes</Original>
+			<Russian>Да</Russian>
+			<French>Oui</French>
+		</Key>
+		<Key ID="STR_FS_Barracks_No">
+			<Original>No</Original>
+			<Russian>Нет</Russian>
+			<French>Non</French>
+		</Key>		
+		<Key ID="STR_FS_Barracks_STANCE_AUTO">
+			<Original>AUTO</Original>
+			<Russian>АВТО</Russian>
+			<French>AUTO</French>
+		</Key>
+		<Key ID="STR_FS_Barracks_STANCE_UP">
+			<Original>STANDING</Original>
+			<Russian>СТОЯ</Russian>
+			<French>DEBOUT</French>
+		</Key>
+		<Key ID="STR_FS_Barracks_STANCE_MIDDLE">
+			<Original>CROUCHING</Original>
+			<Russian>СИДЯ</Russian>
+			<French>ACCROUPI</French>
+		</Key>
+		<Key ID="STR_FS_Barracks_STANCE_DOWN">
+			<Original>LYING</Original>
+			<Russian>ЛЕЖА</Russian>
+			<French>ALLONGÉ</French>
+		</Key>
+		<Key ID="STR_FS_Barracks_GROUP_PLAYER">
+			<Original>Player</Original>
+			<Russian>Игрок</Russian>
+			<French>Joueur</French>
+		</Key>
+		<Key ID="STR_FS_Barracks_GROUP_NEW">
+			<Original>New group</Original>
+			<Russian>Новая группа</Russian>
+			<French>Nouveau</French>
+		</Key>
+	
+		<Key ID="STR_FS_WipeMenu">
+			<Original>Wipe Menu</Original>
+			<Russian>Удаление форта</Russian>
+			<French>Effacer</French>
+		</Key>
+		<Key ID="STR_FS_WipeMines">
+			<Original>Wipe Mines</Original>
+			<Russian>Убрать мины</Russian>
+			<French>Effacer les mines</French>
+		</Key>
+		<Key ID="STR_FS_WipeGraf">
+			<Original>Wipe Graffiti</Original>
+			<Russian>Убрать Граффити</Russian>
+			<French>Effacer les graffitis</French>
+		</Key>
+		<Key ID="STR_FS_WipeAll">
+			<Original>Wipe All</Original>
+			<Russian>Убрать всё</Russian>
+			<French>Tout effacer</French>
+		</Key>
+		<Key ID="STR_FS_FortCode">
+			<Original>Paste your fortress-code here</Original>
+			<Russian>Вставьте здесь код, полученный при сохранении</Russian>
+			<French>Coller ici vore code-forteresse</French>
+		</Key>
+		<Key ID="STR_FS_Cancel">
+			<Original>Cancel</Original>
+			<Russian>Отмена</Russian>
+			<French>Annuler</French>
+		</Key>
+		<Key ID="STR_FS_Copy">
+			<Original>Copy</Original>
+			<Russian>Копировать</Russian>
+			<French>Copier</French>
+		</Key>
+	</Package>
+	
+	<Package name="Mission__Actions">
+		<Key ID="STR_FS_CreateNPC">
+			<Original>Create NPC</Original>
+			<Russian>Создать NPC</Russian>
+			<French>Créer des PNJ</French>
+		</Key>
+		<Key ID="STR_FS_ChairSitDown">
+			<Original>Take a seat</Original>
+			<Russian>Сесть</Russian>
+			<French>S'asseoir</French>
+		</Key>		
+		<Key ID="STR_FS_ChairStandUp">
+			<Original>Press SHIFT to Stand up</Original>
+			<Russian>Нажмите SHIFT, чтобы встать</Russian>
+			<French>Appuyer sur [MAJ] pour vous relever</French>
+		</Key>
+		<Key ID="STR_FS_KS_ZEUS">
+			<Original>KillStreak: Call Zeus</Original>
+			<Russian>KillStreak: Привлечь Зевса</Russian>
+			<French>KillStreak: Appeler Zeus</French>
+		</Key>
+		<Key ID="STR_FS_KS_HELI">
+			<Original>KillStreak: helicopter</Original>
+			<Russian>KillStreak: вертолет</Russian>
+			<French>KillStreak: hélicoptère</French>
+		</Key>
+		<Key ID="STR_FS_KS_AMMO">
+			<Original>KillStreak: unlimited ammo</Original>
+			<Russian>KillStreak: беск. патроны</Russian>
+			<French>KillStreak: munitions illimitées</French>
+		</Key>
+		<Key ID="STR_FS_KS_ARMOR">
+			<Original>KillStreak: enhanced armor</Original>
+			<Russian>KillStreak: улучшенная броня</Russian>
+			<French>KillStreak: invincibilité</French>
+		</Key>
+		<Key ID="STR_FS_SAVEFORTRESS">
+			<Original>Save fortress</Original>
+			<Russian>Сохранить форт</Russian>
+			<French>Sauvegarder la forteresse</French>
+		</Key>
+		<Key ID="STR_FS_WIPEFORTRESS">
+			<Original>Wipe fortress</Original>
+			<Russian>Очистить форт</Russian>
+			<French>Effacer mines/graffitis/forteresse</French>
+		</Key>
+		<Key ID="STR_FS_LOADFORTRESS">
+			<Original>Load fortress</Original>
+			<Russian>Загрузить форт</Russian>
+			<French>Charger une forteresse</French>
+		</Key>
+		<Key ID="STR_FS_ActivatePerk">
+			<Original>Activate Perk</Original>
+			<Russian>Активировать перк</Russian>
+			<French>Activer un avantage</French>
+		</Key>
+		<Key ID="STR_FS_OpenBuilder">
+			<Original>Open Builder</Original>
+			<Russian>Строительство</Russian>
+			<French>Ouvrir le menu construction</French>
+		</Key>
+		<Key ID="STR_FS_ActBuild">
+			<Original>Build</Original>
+			<Russian>Построить</Russian>
+			<French>Placer l'objet</French>
+		</Key>
+		<Key ID="STR_FS_ActCancel">
+			<Original>Cancel building</Original>
+			<Russian>Отменить</Russian>
+			<French>Annuler le placement</French>
+		</Key>
+	</Package>
+	
+	<Package name="Mission__Building">
+		<Key ID="STR_FS_BUILD_BUTTON">
+			<Original>Build</Original>
+			<Russian>Построить</Russian>
+			<French>Placer</French>
+		</Key>
+		<Key ID="STR_FS_BUILD_CHOOSE">
+			<Original>Choose what you want to build</Original>
+			<Russian>Выберите то, что хотите построить</Russian>
+			<French>Choisissez ce que vous voulez placer</French>
+		</Key>
+		<Key ID="STR_FS_BUILD_DELOBJECT">
+			<Original>Only owner and server admin can delete this object.</Original>
+			<Russian>Только владелец или администратор может удалить этот объект.</Russian>
+			<French>Seul le propriétaire ou l'administrateur peut supprimer cet objet.</French>
+		</Key>
+	</Package>
+	
+	<Package name="Mission__Info">
+		<Key ID="STR_FS_Title_Construction">
+			<Original>Construction</Original>
+			<Russian>Строительство</Russian>
+			<French>Construction</French>
+		</Key>	
+		<Key ID="STR_FS_Title_SaveNLoad">
+			<Original>Fort Save and Load</Original>
+			<Russian>Сохранение и загрузка</Russian>
+			<French>Sauvegarde et chargement</French>
+		</Key>	
+		<Key ID="STR_FS_HINT_BRIEF">
+			<Original>\nIn this mission your main task is to build a good fortress, which will safe your lifes.\n\nCheck your journal to learn how to build like a pro.\n\n</Original>
+			<Russian>\nВ этой миссии ваша первоочередная задача - построить надежный форт, который спасёт ваши жизни.\n\nОткройте журнал, чтобы научиться строить и узнать больше.\n\n</Russian>
+			<French>\nDans cette mission, votre tâche principale est de construire une bonne forteresse, qui sauvera votre vie. \n\nConsultez votre journal pour apprendre davantage comment construire comme un pro. \n\n</French>
+		</Key>		
+		<Key ID="STR_FS_HINT_KEYS_01">
+			<Original>In this mission your main task is to build a good fortress, which will safe your lifes.</Original>
+			<Russian>В этой миссии ваша первоочередная задача - построить надежный форт, который спасёт ваши жизни.</Russian>
+			<French>Dans cette mission, votre tâche principale est de construire une bonne forteresse, qui sauvera votre vie.</French>
+		</Key>		
+		<Key ID="STR_FS_HINT_KEYS_02">
+			<Original>You can open build menu by pressing Right ALT.</Original>
+			<Russian>Нажмите Right ALT, чтобы открыть меню строительства.</Russian>
+			<French>Vous pouvez ouvrir le menu de construction à tout moment en appuyant sur [ALT GR].</French>
+		</Key>
+		<Key ID="STR_FS_HINT_KEYS_03">
+			<Original>You can adjust HEIGHT by pressing (1) LCTRL + MouseWheel or (2) LCTRL + Q \ E if you taking pistol.</Original>
+			<Russian>Зажмите LCTRL и покрутите колесом мышки (1), чтобы немного изменить высоту устанавливаемого блока. Если у вас в руках стартовый пистолет, то вы можете быстро менять высоту, зажав LCTRL + Q \ E (2).</Russian>
+			<French>Vous pouvez ajuster la HAUTEUR en appuyant sur (1) [CTRL GAUCHE] + [Molette de la Souris] ou (2) [CTRL GAUCHE] + [A]\[E] si vous tenez le pistolet.</French>
+		</Key>
+		<Key ID="STR_FS_HINT_KEYS_04">
+			<Original>Try the (1) combination to rapidly SPAWN another block.</Original>
+			<Russian>Чтобы БЫСТРО заспавнить предыдущий блок, используйте комбинацию (1).</Russian>
+			<French>Essayez la combinaison (1) pour faire DUPLIQUER rapidement le dernier objet posé.</French>
+		</Key>
+		<Key ID="STR_FS_HINT_KEYS_05">
+			<Original>You can DELETE your objects by pressing F if you are carrying STARTING PISTOL.</Original>
+			<Russian>Чтобы удалить блок, возьмите в руки стартовый пистолет, прицельтесь в блок и нажмите F.</Russian>
+			<French>Vous pouvez SUPPRIMER un objet en appuyant sur [F] seulement si vous tenez le PISTOLET.</French>
+		</Key>
+		<Key ID="STR_FS_HINT_KEYS_06">
+			<Original>The pistol also lets you move objects FORWARD and BACKWARD by pressing Q and E and rotate them by pressing SHIFT and TAB.</Original>
+			<Russian>Пистолет позволяет вам двигать объекты вперед и назад при нажатии Q и E, а также позволяет поворачивать объекты на углы, кратные 45 градусам, при нажатии SHIFT и TAB.</Russian>
+			<French>Lorsque vous tenez le pistolet, appuyez sur [A] pour faire RECULER l'objet et [E] pour faire AVANCER l'objet. Appuyez sur [MAJ] ou [TAB] pour faire tourner l'objet de 45 degrés (Axe Z et Y).</French>
+		</Key>
+		<Key ID="STR_FS_SAVELOAD_01">
+			<Original>You can save your fort in notebook on the table.</Original>
+			<Russian>Вы в любой момент можете сохранить свой форт в ноутбуке на столе.</Russian>
+			<French>Vous pouvez sauvegarder votre forteresse dans l'ordinateur sur la table.</French>
+		</Key>
+		<Key ID="STR_FS_SAVELOAD_02">
+			<Original>You also can load a fort there.</Original>
+			<Russian>Там же вы можете загрузить форт обратно и удалить все поставленные объекты.</Russian>
+			<French>Vous pouvez aussi charger votre forteresse dans ce dernier.</French>
+		</Key>
+		<Key ID="STR_FS_SAVELOAD_03">
+			<Original>If you load a fortress, all loaded objects will recognize ANYBODY as owner. By other words, loaded objects can be deleted by anybody.</Original>
+			<Russian>Если вы загрузите форт, все загруженные объекты будут помечены как объекты без владельца, то есть все они могут быть свободно удалены любым игроком.</Russian>
+			<French>Si vous chargez une forteresse, tous les objets chargés reconnaîtront N'IMPORTE QUI comme propriétaire. Par d'autres mots, les objets chargés peuvent être supprimés par n'importe qui.</French>
+		</Key>
+		
+		<Key ID="STR_FS_ENDLESS_TITLE">
+			<Original>Endless mode</Original>
+			<Russian>Бесконечный режим</Russian>
+			<French>Mode Infinie</French>
+		</Key>
+		<Key ID="STR_FS_ENDLESS_01">
+			<Original>In this mode your ammo is limited. After you hit 0-0-0 and start the simulation, ammobox will be removed from this world.</Original>
+			<Russian>В этом режиме ваш боезапас ограничен. После того, как вы запустите симуляцию через 0-0-0, ящик с виртуальным арсеналом исчезнет из этой реальности.</Russian>
+			<French>Dans ce mode, vos munitions sont limitées. Après avoir démarré la simulation en appuyant sur 0-0-0, la caisse de munitions (virtual ammobox, virtual arsenal, menu construction) est supprimée.</French>
+		</Key>
+		<Key ID="STR_FS_ENDLESS_02">
+			<Original>Also to match the reality, there is no respawns here.</Original>
+			<Russian>Респавн будет отключен. У вас только одна жизнь, берегите ее.</Russian>
+			<French>Bien sûr pour renforcer le côté réalité, il n'y a aucune réapparition.</French>
+		</Key>
+		<Key ID="STR_FS_ENDLESS_03">
+			<Original>Imagine it's a real life war, and your task is holding your position as long as possible.</Original>
+			<Russian>Представьте, что это настоящий бой, и ваше задание - стоять насмерть, не пропуская врага.</Russian>
+			<French>Imaginez que c'est une guerre réelle, et que votre tâche est de tenir la position le plus longtemps possible.</French>
+		</Key>
+		<Key ID="STR_FS_ENDLESS_04">
+			<Original>Good luck, heroes!</Original>
+			<Russian>Удачи, герои!</Russian>
+			<French>Bonne chance, soldat!</French>
+		</Key>
+	</Package>
+	
+	<Package name="Mission__Perks">
+		<Key ID="STR_FS_PERK_EFFECT">
+			<Original>PERK'S EFFECT</Original>
+			<Russian>ДЕЙСТВИЕ ПЕРКА</Russian>
+			<French>INFORMATION</French>
+		</Key>
+		<Key ID="STR_FS_PERK_seconds">
+			<Original>sec.</Original>
+			<Russian>сек.</Russian>
+			<French>sec.</French>
+		</Key>	
+		
+		<Key ID="STR_FS_PERK_ARTYREADY">
+			<Original>Artillery Support is Ready. Use it via mapclick.</Original>
+			<Russian>Артиллерия ждёт сигнала, укажите место.</Russian>
+			<French>Soutien aérien rapproché prêt. Utiliser le via un clic sur votre carte.</French>
+		</Key>		
+		<Key ID="STR_FS_PERK_ARTYHELP">
+			<Original>Press LCTRL + LMB to set a mark on your map.</Original>
+			<Russian>Нажмите LCTRL + LMB, чтобы поставить метку на карте.</Russian>
+			<French>Appuyez sur [CTRL] + [BSG] pour créer un marqueur sur votre carte.</French>
+		</Key>
+		<Key ID="STR_FS_PERK_ARTYINBOUND">
+			<Original>One of teammates called artillery!</Original>
+			<Russian>Союзник вызвал артудар!</Russian>
+			<French>Un de vos coéquipiers a demandé une frappe aérienne!</French>
+		</Key>			
+		<Key ID="STR_FS_PERK_ARTYSUPPORT">
+			<Original>ARTILLERY SUPPORT</Original>
+			<Russian>ПОДДЕРЖКА АРТИЛЛЕРИИ</Russian>
+			<French>SOUTIEN AÉRIEN RAPPROCHÉ</French>
+		</Key>
+		
+		<Key ID="STR_FS_PERK_CASREADY">
+			<Original>Close Air Support is Ready. Use it via mapclick.</Original>
+			<Russian>Поддержка с воздуха ждёт сигнала, укажите место.</Russian>
+			<French>Soutien aérien rapproché prêt. Utiliser le via un clic sur votre carte.</French>
+		</Key>		
+		<Key ID="STR_FS_PERK_CASHELP">
+			<Original>Press LALT + LMB to set a mark on your map.</Original>
+			<Russian>Нажмите LALT + LMB, чтобы поставить метку на карте.</Russian>
+			<French>Appuyez sur [ALT] + [BSG] pour créer un marqueur sur votre carte.</French>
+		</Key>
+		<Key ID="STR_FS_PERK_CASINBOUND">
+			<Original>One of temmates called Airstrike!</Original>
+			<Russian>Союзник вызвал атаку с воздуха!</Russian>
+			<French>Un de vos coéquipiers a demandé une frappe aérienne!</French>
+		</Key>			
+		<Key ID="STR_FS_PERK_CASSUPPORT">
+			<Original>AIR SUPPORT</Original>
+			<Russian>ПОДДЕРЖКА С ВОЗДУХА</Russian>
+			<French>SOUTIEN AÉRIEN RAPPROCHÉ</French>
+		</Key>
+		
+		<Key ID="STR_FS_PERK_Wallhack">
+			<Original>All enemies are marked on screen.</Original>
+			<Russian>Все враги отмечены на экране.</Russian>
+			<French>Tous les ennemis sont marqués sur l'écran.</French>
+		</Key>
+		<Key ID="STR_FS_PERK_AutoHeal">
+			<Original>Health slowly regenerates with time.</Original>
+			<Russian>Ускоренная регенерация здоровья.</Russian>
+			<French>Votre vie se régénére lentement avec le temps.</French>
+		</Key>
+		<Key ID="STR_FS_PERK_NOPERKSELECTED">
+			<Original>No perk selected.</Original>
+			<Russian>Перк не был выбран.</Russian>
+			<French>Aucun avantage sélectionné.</French>
+		</Key>		
+		<Key ID="STR_FS_PERK_ONLY1PERK">
+			<Original>You can choose only one perk!</Original>
+			<Russian>Вы можете выбрать только один перк!</Russian>
+			<French>Vous ne pouvez choisir seulement qu'un avantage!</French>
+		</Key>
+		<Key ID="STR_FS_PERKS">
+			<Original>Perks</Original>
+			<Russian>Перки</Russian>
+			<French>Avantages</French>
+		</Key>		
+		<Key ID="STR_FS_PERKS_DONE">
+			<Original>Done</Original>
+			<Russian>Готово</Russian>
+			<French>OK</French>
+		</Key>
+		<Key ID="STR_FS_PERK_PAYBACK">
+			<Original>Blows up your killer.</Original>
+			<Russian>Взрывает вашего убийцу.</Russian>
+			<French>Fait exploser votre tueur.</French>
+		</Key>
+		<Key ID="STR_FS_PERK_Artillery">
+			<Original>Unlocks ability to call Artillery Strikes.</Original>
+			<Russian>Открывает доступ к артиллерии.</Russian>
+			<French></French>
+		</Key>
+		<Key ID="STR_FS_PERK_Aviator">
+			<Original>Unlocks ability to call Close Air Support.</Original>
+			<Russian>Открывает доступ к авиаударам.</Russian>
+			<French>Débloque la compétence de pouvoir appeler un soutien aérien rapproché.</French>
+		</Key>
+		<Key ID="STR_FS_PERK_ZEUSPET">
+			<Original>Zeus will kill more for you.</Original>
+			<Russian>Зевс будет убивать больше.</Russian>
+			<French>Zeus en tuera plus pour vous.</French>
+		</Key>
+		<Key ID="STR_FS_PERK_DEADSHOT">
+			<Original>Bullets have red trails.</Original>
+			<Russian>Траектория ваших пуль подсвечивается.</Russian>
+			<French>Les balles laissent une trainée rouge.</French>
+		</Key>
+		<Key ID="STR_FS_PERK_MIRROR">
+			<Original>200% of taken damage reverts to enemy.</Original>
+			<Russian>200% полученного урона возвращаются обратно недоброжелателю.</Russian>
+			<French>200% de dégâts reçu sont redonnés à l'ennemi.</French>
+		</Key>
+		<Key ID="STR_FS_PERK_TICKETS">
+			<Original>Each time you call Zeus your team receives 3 additional tickets.</Original>
+			<Russian>Каждый раз, когда вы вызываете Зевса, ваша команда получает по 3 возрождения.</Russian>
+			<French>Chaque fois que vous appelez Zeus, votre équipe reçoit 3 tickets supplémentaires.</French>
+		</Key>
+	</Package>
+</Project>
